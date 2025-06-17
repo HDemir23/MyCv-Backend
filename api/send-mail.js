@@ -2,7 +2,10 @@ const nodemailer = require("nodemailer");
 
 module.exports = async (req, res) => {
   // ✅ CORS HEADERS
-  res.setHeader("Access-Control-Allow-Origin", "https://hakandemir.vercel.app");
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://www.hakandemir.com.tr"
+  );
   res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
